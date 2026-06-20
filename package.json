@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "dev": "npm run docs:dev",
+    "build": "npm run docs:build",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "vitepress": "^2.0.0-alpha.17"
+  }
+}
